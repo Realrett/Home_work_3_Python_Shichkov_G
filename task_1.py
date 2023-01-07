@@ -7,6 +7,6 @@ def sum_odd_index(list):
     for i in range(len(list)):
         if i % 2 != 0:
             s += list[i]
-    print(f"Сумма равна элементов на нечётныцх позициях равна: {s}")
+    print(f"Сумма равна элементов на нечётных позициях равна: {s}")
 
 sum_odd_index(list)
